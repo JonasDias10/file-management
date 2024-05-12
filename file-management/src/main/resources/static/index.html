@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <link rel="stylesheet" href="./index.css">
+      <title>File Management</title>
+</head>
+<body>
+      <div id="container">
+            <div class="card">
+                  <h1>Upload File</h1>
+
+                  <form enctype="multipart/form-data">
+                        <input type="file" name="file" id="file">
+                        <button type="submit" id="submit">Upload</button>
+                  </form>
+            </div>
+
+            <div class="card">
+                  <h1>Files</h1>
+                  
+                  <div id="files">
+                  </div>
+            </div>
+      </div>
+
+      <script src="./index.js"></script>
+</body>
+</html>

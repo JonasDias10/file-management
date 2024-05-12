@@ -14,7 +14,7 @@ import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.PostMapping;
 
 @RestController
-@RequestMapping("/api/v1/file")
+@RequestMapping("/api/v1/files")
 public class FileController {
       private final StorageService storageService;
 
