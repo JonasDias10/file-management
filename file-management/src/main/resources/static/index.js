@@ -26,6 +26,12 @@ const getAllFiles = async () => {
                   'Content-Type': 'application/json'
             }
       });
+
+      if (!response.ok) {
+            alert('Something went wrong!');
+            return [];
+      }
+
       const data = await response.json();
       return data;
 }
