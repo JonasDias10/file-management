@@ -40,6 +40,3 @@ The File Management is a Spring Boot application designed to provide basic file 
 | DELETE | /api/v1/files/delete/{fileName}   | Deletes a file from the server by specifying its filename.    |
 | GET    | /api/v1/files/all                 | Retrieves a list of all files currently stored on the server. |
 
----
-
-**Author: Jonas Dias | [Social Media](https://jonas-dias.netlify.app/) | Thank You**
